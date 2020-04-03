@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ilya/AMQP-CPP/examples/libevent.cpp
+amqpcpp.h
+-
+amqpcpp/libevent.h
+-
+amqpcpp/exchangetype.h
+-
+

@@ -1,0 +1,3 @@
+/home/ilya/AMQP-CPP/examples/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ilya/AMQP-CPP/examples/cmake-build-debug/CMakeFiles/amqpcpp_libev_example.dir
+/home/ilya/AMQP-CPP/examples/cmake-build-debug/CMakeFiles/edit_cache.dir

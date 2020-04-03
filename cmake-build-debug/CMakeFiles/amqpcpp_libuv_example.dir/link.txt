@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/amqpcpp_libuv_example.dir/libuv.o  -o amqpcpp_libuv_example  -L/usr/local/lib -Wl,-rpath,/usr/local/lib /usr/local/lib/libamqpcpp.so -luv -lpthread -ldl -lssl 

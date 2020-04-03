@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/amqpcpp_boost_example.dir/libboostasio.o  -o amqpcpp_boost_example  -L/usr/local/lib -Wl,-rpath,/usr/local/lib /usr/local/lib/libamqpcpp.so -lboost_system -lpthread -ldl -lssl 

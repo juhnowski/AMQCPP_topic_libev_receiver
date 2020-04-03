@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ilya/AMQP-CPP/examples/libboostasio.cpp
+boost/asio/io_service.hpp
+-
+boost/asio/strand.hpp
+-
+boost/asio/deadline_timer.hpp
+-
+amqpcpp.h
+-
+amqpcpp/libboostasio.h
+-
+

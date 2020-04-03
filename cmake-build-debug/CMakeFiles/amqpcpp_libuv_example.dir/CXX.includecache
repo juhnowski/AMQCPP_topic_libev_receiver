@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ilya/AMQP-CPP/examples/libuv.cpp
+uv.h
+-
+amqpcpp.h
+-
+amqpcpp/libuv.h
+-
+

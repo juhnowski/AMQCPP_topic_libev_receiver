@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/amqpcpp_libevent_example.dir/libevent.o  -o amqpcpp_libevent_example  -L/usr/local/lib -Wl,-rpath,/usr/local/lib /usr/local/lib/libamqpcpp.so -luv -lpthread -ldl -lssl -levent 
