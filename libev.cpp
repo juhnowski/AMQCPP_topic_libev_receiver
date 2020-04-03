@@ -15,7 +15,9 @@
 #include <amqpcpp/libev.h>
 #include <openssl/ssl.h>
 #include <openssl/opensslv.h>
+#include "json.hpp"
 
+using json = nlohmann::json;
 
 using namespace std;
 
@@ -204,11 +206,20 @@ int main()
                uint64_t deliveryTag,
                bool redelivered)
             {
+                string json_str = string(message.body()).substr(0,message.bodySize());
                 std::cout <<" [x] "
                           <<message.routingkey()
                           <<":"
-                          <<message.body()
+                          << json_str
                           << std::endl;
+                auto j = json::parse(json_str);
+//                for (auto element : j) {
+//                    cout << element << endl;
+//                }
+                cout << "id:" << j["id"] << endl;
+                cout << "audio:" << j["audio"] << endl;
+                cout << "video:" << j["video"] << endl;
+                cout << "rtmp:" << j["rtmp"] << endl;
             };
 
     string queue_name = "my-queue";
